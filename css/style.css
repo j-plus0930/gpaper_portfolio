@@ -1,0 +1,1353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Strike&display=swap');
+
+*{
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+
+
+.mainHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 10% 0;
+    align-items: center;
+}
+
+.mainHeader .right nav{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    font-size: 24px;
+}
+
+.home {
+    width: 100%;
+    padding: 35px 15%;
+    height: 100vh;
+}
+
+.home-content{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    justify-content: center;
+}
+
+.home-content-details h5{
+    font-size: 30px;
+    color: #ffc401;
+    font-weight: 400;
+}
+
+.home-content-details h2{
+    font-size: 60px;
+    color: #ffc401;
+    font-family: 'Protest Strike';
+}
+
+.home-content-details p{
+    font-size: 18px;
+    color: #ffc401;
+    font-weight: 300;
+}
+
+.home-content-details-link{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home-content-details-link .linkCV{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    background: #3A3A3A;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.home-content-details-link .linkContact{
+    color: #3a3a3a;
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid #3a3a3a;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.home-content-details-sns{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.snsIG, .snsIN, .snsFB {
+    color: #3a3a3a;
+    font-size: 40px;
+}
+.snsIG:hover, .snsIN:hover, .snsFB:hover{
+    color: #244494;
+    transition: 0.5s;
+}
+
+
+/* ===================================  ABOUT ===================================== */
+.about {
+    width: 100%;
+    padding: 35px 15%;
+    height: 100vh;
+}
+
+.about-content .header, .skill-content .header, .project-content .header, .experience-content .header, .contact-content .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content .header h5, .skill-content .header h5, .project-content .header h5, .experience-content .header h5, .contact-content .header h5 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.body{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+    justify-content: center;
+}
+
+.body-pic{
+    width: 50%;
+}
+
+.body-details h1{
+    font-size: 60px;
+}
+
+.body-details .about-content{
+    opacity: 0.7;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.extra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.extra-group{
+    border-radius: 20px;
+    border: 2px solid #3a3a3a;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    width: 100%;
+    padding: 20px;
+    gap: 1rem;
+}
+
+.extra-group h5{
+    font-size: 15px;
+    margin-top:5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.extra-group p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.extra-group i{
+    font-size: 100px;
+}
+
+
+
+/* ==========================SKILL==========================*/
+
+.skill{
+    width: 100%;
+    padding: 35px 15%;
+    height: 100vh;
+}
+
+.skill-body{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: start;
+}
+
+.skillCat{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 3rem;
+}
+
+.skillCat h5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffc401;
+}
+
+.skillSub{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    gap: 10px;
+}
+
+.skillSub p{
+    opacity: .7;
+    border-radius: 30px;
+    background: #d9d9d9;
+    padding: 10px 15px;
+    font-size:12px;
+}
+
+
+/* ==================================== PROJECTS ======================================= */
+.project{
+    width: 100%;
+    padding: 35px 15%;
+    height: 100vh;
+}
+
+.project-content{
+    align-items: center;
+    justify-content: center;
+}
+
+.projectGroup{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.projectGroup .projectCat{
+    padding: 30px 10px;
+    width: fit-content;
+    border: 2px solid #3a3a3a;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.projectCat img{
+    border-radius: 20px;
+}
+
+.projectCat h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom:40px;
+}
+
+.projectCat .createLink{
+    color: #31A8FF;
+    background: #001E36;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.projectCat .prodLink{
+    color: #9A9AFF;
+    background: #00005B;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.projectCat .devLink{
+    color: #006CAD;
+    background: #1FADF2;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+/* =========================================== EXP ===============================*/
+.experience{
+    width: 100%;
+    padding: 35px 15%;
+    height: 100vh;
+}
+
+.experience-cp{
+    display:none;
+}
+
+.experience-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 2rem;
+}
+
+.expCatGroup{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+
+.expCat{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding: 20px;
+    border: 1px solid #3a3a3a;
+    border-radius: 30px;
+    width: 100%;
+    align-items: start;
+    text-align: center;
+    height: 35vh;
+    align-content: center;
+}
+
+.expPicName{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+}
+
+.expCat p{
+    font-size:12px;
+    text-align: left;
+    line-height: 2;
+}
+
+
+/*========================================== CONTACT =================================== */
+.contact{
+    width: 100%;
+    padding: 35px 15%;
+    height: 100vh;
+}
+
+.contactBody{
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.contactBody h2{
+    font-size: 36px;
+    color: #ffc401;
+    margin-bottom: 10px;
+}
+
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.contactDetails h4{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contactDetails .contactEmail,
+.contactDetails .contacNumber{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contactDetails p{
+    font-size: 20px;
+    opacity: .8;
+}
+
+.snsList {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.snsList a{
+    font-size: 48px;
+    text-align: center;
+}
+
+.endIN:hover{
+    color: #0c6fcc;
+    transition: 0.5s;
+}
+.endIG:hover{
+    transition: 0.5s;
+    color: #f09433; 
+    color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1);
+}
+
+.endFB:hover{
+    color: #0080ff;
+    transition: 0.5s;
+}
+
+.footer{
+    color: #fff;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer h6{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.footer p{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.project-category-content{
+    width: 100%;
+    padding: 35px 15%;
+}
+
+.category-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-header .leftHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.leftHeader i{
+    font-size: 28px;
+    background: #001E36;
+    color: #31A8FF;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+#btnProd {
+    font-size: 28px;
+    color: #9A9AFF;
+    background: #00005B;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+#btnDev{
+    font-size: 28px;
+    color: #006CAD;
+    background: #1FADF2;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.main-project {
+    padding: 35px 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.row-group{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-single{
+    border: 1px solid #000;
+    border-radius: 40px;
+    width: 100%;
+    height: 45vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.project-detail{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-pic img{
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.project-detail h4{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.project-detail p{
+    opacity: 0.7;
+}
+
+.project-detail a{
+    font-size: 20px;
+    background: #523903;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    width: 70%;
+}
+
+#for_prod{
+    font-size: 20px;
+    color: #9A9AFF;
+    background: #00005B;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    width: 50%;
+}
+
+#for_dev{
+    font-size: 20px;
+    color: #006CAD;
+    background: #1FADF2;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    width: 50%;
+}
+
+.project-single_webdev{
+    border: 1px solid #000;
+    border-radius: 40px;
+    width: 50%;
+    height: 45vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+#for_dev_web{
+    font-size: 20px;
+    color: #006CAD;
+    background: #1FADF2;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    width: 50%;
+}
+
+.creative-content{
+    justify-content: center;
+    display: flex;
+}
+
+.prod-ver{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.prod-ver-single {
+    width: 50%;
+    border: 1px solid #545454;
+    border-radius: 50px;
+    padding: 20px 30px;
+    position: relative;
+    height: 80vh;
+}
+
+.prod-ver-single video{
+    border-radius: 30px;
+}
+
+.prod-ver-single h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.single-text{
+    position: absolute;
+    bottom: 10px;
+    margin: 20px 0;
+}
+
+.prod-content-film{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 15%;
+}
+
+.film-single{
+    border: 1px solid #545454;
+    border-radius: 30px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.film-single video{
+    border-radius: 30px;
+}
+
+.film-single img,
+.app-single img {
+    border-radius: 30px;
+}
+
+.film-single h4,
+.app-single h4{
+    font-size: 35px;
+}
+
+.film-single p,
+.app-single p{
+    margin-top: 40px;
+}
+
+.app-single{
+    border: 1px solid #545454;
+    border-radius: 30px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.app-single-text{
+    padding: 30px;
+}
+
+@media (max-width: 450px){
+
+    header {
+        padding: 10px;
+    }
+
+    .mainHeader{
+        padding: 0;
+        justify-content: center;
+    }
+
+    .mainHeader .left a img {
+        width: 200px;
+    }
+    
+    header .mainHeader .right {
+        display: none;
+    }
+
+    .home{
+        padding: 10px;
+        align-content: start;
+        height: fit-content;
+        margin-top: 50px;
+    }
+
+    .home-content{
+        display: inline-block;
+        gap: 1px;
+        align-items: start;
+        padding: 0;
+        height: fit-content;
+    }
+
+    .home-content-pic {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-content-pic img{
+        width: 200px;
+    }
+
+    .home-content-details{
+        align-items: start;
+        margin: 50px 0;
+        text-align: center;
+    }
+
+    .home-content-details h5{
+        font-size: 24px;
+    }
+
+    .home-content-details h2{
+        font-size: 96px;
+        line-height: .9;
+    }
+
+    .home-content-details-link{
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        margin: 5px 0;
+        margin-top: 10px;
+    }
+
+    .home-content-details-link a{
+        width: 50%;
+    }
+
+    .home-content-details-sns{
+        margin: 5px 0;
+        gap: 0;
+    }
+
+    .home-content-details-sns a i {
+        font-size: 50px;
+    }
+
+    /* ============== ABOUT ================== */
+
+    .about{
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .about-content {
+        height: fit-content;
+    }
+
+    .body{
+        display: inline-block;
+        height: fit-content;
+    }
+
+    .about-content .header{
+        display: none;
+    }
+
+    .about-content .body .body-pic img{
+        display: none;
+    }
+
+    .about-content .body .body-details {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .about-content .body .body-details h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .about-content .body .body-details p{
+        font-size: 16px;
+        margin: 20px 0;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .body-details .extra .extra-group{
+        width: 50%;
+        height: 100%;
+    }
+
+    .about-content .body .body-details .extra{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        width: 100%;
+        align-items: center;
+        height: 100%;
+    }
+
+    .extra .extra-group{
+        margin: 5px 0;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        gap: 2px;
+    }
+
+    .extra-group img{
+        width: 50px;
+    }
+
+    .extra-group p{
+        text-align: left;
+    }
+
+
+    /* ================== SKILLS ======================= */
+
+    .skill {
+        padding: 10px;
+        height: fit-content;
+        margin-bottom: 100px;
+    }
+
+    .skill-content{
+        height: fit-content;
+    }
+
+    .skill-body{
+        display: inline-block;
+        height: fit-content;
+    }
+
+    .skillCat{
+        margin: 10px 0;
+    }
+
+    .skillSub {
+        display: grid;
+        grid-template-rows: 30px 30px;
+        grid-template-columns: 120px 120px;
+    }
+
+    .skill-body .skillPic img {
+        width: 300px;
+    }
+
+
+    /* ==================== PROJECT======================== */
+    
+    .project{
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .project .header h5{
+        justify-content: center;
+    }
+
+    .project-content .header img{
+        visibility: hidden;
+    }
+
+    .projectGroup{
+        width: 100%;
+        display: flex;
+        margin: 10px 0;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectCat{
+        margin: 10px 0;
+    }
+
+    .projectCat img{
+        width: 300px;
+    }
+
+    .projectCat h4{
+        font-size: 28px;
+    }
+
+    /* ================================ EXPERIENCE ======================== */
+
+    .experience{
+        height: fit-content;
+        padding: 10px;
+        margin: 25px 0;
+    }
+
+    .experience-content .header img{
+        visibility: hidden;
+    }
+
+    .experience-body{
+        display: inline-block;
+        height: fit-content;
+    }
+
+    .expCatGroup{
+        display: inline-block;
+        height: fit-content;
+    }
+
+    .expCat{
+        display: inline-block;
+        padding: 20px;
+        height: fit-content;
+        margin: 5px 0;
+    }
+
+
+
+    /* creatives */
+    .main-project{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 100px;
+    }
+
+    .row-group{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .rightHeader{
+        display: none;
+    }
+    
+    .project-single{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    #for_dev_web{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: start;
+    }
+
+    .project-single_webdev{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .creative-content img{
+        width: 400px;
+        margin-bottom: 100px;
+    }
+
+    .prod-ver{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .creative-content{
+        width: 100%;
+        padding: 0 20px;
+        margin-bottom: 100px;
+    }
+
+    .prod-ver-single{
+        width: 100%;
+    }
+
+    .film-single{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .film-single video{
+        width: 250px;
+    }
+
+    .prod-content-film{
+        margin-bottom: 100px;
+    }
+
+    .film-single img,
+    .app-single img{
+        width: 250px;
+    }
+
+    .app-single-text{
+        padding: 0;
+    }
+
+    .contact{
+        padding:10px;
+    }
+}
+
+@media screen and (min-width: 451px) and (max-width: 830px) {
+    .home{
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .mainHeader {
+        padding: 10px;
+    }
+
+    .mainHeader .right nav{
+        gap: 30px;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+
+    .home-content {
+        display:inline-flex;
+        gap: 20px;
+        height: fit-content;
+    }
+
+
+
+
+
+    .about{
+        padding: 10px;
+        height: 100vh;
+        margin: 20px 0;
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content .header{
+        padding:10px;
+    }
+
+    .about-content .body{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .body-pic{
+        padding: 20px;
+    }
+
+    .body-details {
+        padding: 0 20px;
+        margin: 10px 0;
+    }
+
+    .body-details .extra{
+        padding: 10px;
+    }
+
+    .body .body-pic img{
+        width: 300px;
+    }
+
+    .body-details h1 {
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+    }
+
+    .about-content .extra{
+        padding: 0;
+    }
+
+    .extra-group{
+        height: 40vh;
+        gap: 1px;
+        padding: 15px;
+        margin: 5px;
+    }
+
+
+
+
+
+    .skill{
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .skill-body{
+        gap: 1px;
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+
+    .skillPic img{
+        width: 300px;
+    }
+
+    .skillCat{
+        margin: 0;
+    }
+
+
+    .experience {
+        padding: 10px;
+    }
+
+    .expCat{
+        width: 100%;
+        height: 40vh;
+    }
+
+
+
+
+
+
+
+    .project{
+        padding: 10px;
+        height: fit-content;
+        margin: 30px 0;
+    }
+
+    .project-content .header{
+        margin-bottom: 50px;
+    }
+
+    .projectCat img{
+        width: 225px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 630px) and (max-width: 829px){
+    .home{
+        padding: 10px;
+        height: 70vh;
+    }
+
+    .mainHeader {
+        padding: 10px;
+    }
+
+    .mainHeader .right nav{
+        gap: 20px;
+    }
+
+    nav a{
+        font-size: 20px;
+    }
+
+    .home-content {
+        display:inline-flex;
+        gap: 20px;
+        height: 70vh;
+    }
+
+    .home-content-pic img{
+        width: 300px;
+    }
+
+    .home-content-details-link{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .home-content-details-link a{
+        width: 75%;
+    }
+
+    .home-content-details-sns {
+        gap: 0;
+    }
+
+    .home-content-details-sns i{
+        font-size: 48px;
+    }
+
+
+
+
+
+    .about{
+        padding: 10px;
+        height: fit-content;
+        margin: 20px 0;
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content .header{
+        padding:10px;
+    }
+
+    .about-content .body{
+        display: inline;
+        height: fit-content;
+        gap: 5px;
+    }
+
+    .body-pic{
+        padding: 20px;
+    }
+
+    .body-details {
+        padding: 0 20px;
+    }
+
+    .body-details .extra{
+        padding: 10px;
+    }
+
+    .body .body-pic img{
+        width: 300px;
+    }
+
+    .body-details h1 {
+        visibility: hidden;
+    }
+
+    .about-content .extra{
+        padding: 0;
+    }
+
+    .extra-group{
+        height: 40vh;
+        gap: 1px;
+        padding: 15px;
+        margin: 5px;
+    }
+
+
+
+
+
+    .skill{
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .skill-body{
+        display: inline;
+    }
+
+    .skill-body{
+        gap: 1px;
+        height: fit-content;
+        justify-content: space-evenly;
+    }
+
+    .skillPic img{
+        width: 300px;
+    }
+
+    .skillCat{
+        margin: 0;
+    }
+
+
+    .experience {
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .expCat{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .expCatGroup{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experience-body{
+        display: inline;
+        margin: 20px 0;
+    }
+
+
+
+
+
+
+
+    .project{
+        padding: 10px;
+    }
+
+    .projectGroup{
+        height: fit-content;
+    }
+
+    .project-content .header{
+        margin-bottom: 50px;
+    }
+
+    .projectCat img{
+        width: 160px;
+    }
+    
+
+
+
+    .contact{
+        padding:10px;
+    }
+
+}
+
